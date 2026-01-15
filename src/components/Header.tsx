@@ -34,7 +34,7 @@ const Header = () => {
                 Ero
               </span>
               <span className="hidden sm:block text-xs text-primary-foreground/70">
-                ENGENHARIA E ADMINISTRACAO LTDA
+                ENGENHARIA E ADMINISTRAÇÃO LTDA
               </span>
             </div>
             <span className="sr-only">Ir para a página inicial</span>

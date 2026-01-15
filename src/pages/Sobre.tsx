@@ -61,7 +61,7 @@ const Sobre = () => {
               Nossa História de <span className="text-accent">Excelência</span>
             </h1>
             <p className="text-lg text-primary-foreground/80">
-              Há mais de 15 anos transformando sonhos em projetos e projetos em realidade
+              Há mais de 10 anos transformando sonhos em projetos e projetos em realidade
             </p>
           </div>
         </div>
@@ -74,7 +74,7 @@ const Sobre = () => {
             <div className="order-2 lg:order-1">
               <h2 className="section-title mb-6">Quem Somos</h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Fundada em 2010, a EngAdmin nasceu da visão de profissionais experientes 
+                Fundada em 2010, a Ero nasceu da visão de profissionais experientes 
                 que buscavam oferecer serviços diferenciados em engenharia e administração. 
                 Ao longo dos anos, construímos uma reputação sólida baseada em qualidade, 
                 ética e compromisso com resultados.

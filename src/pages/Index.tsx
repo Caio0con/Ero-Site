@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const stats = [
   { icon: Building, value: "500+", label: "Projetos Realizados" },
   { icon: Users, value: "150+", label: "Clientes Satisfeitos" },
-  { icon: Award, value: "15+", label: "Anos de Experiência" },
+  { icon: Award, value: "10+", label: "Anos de Experiência" },
   { icon: Target, value: "98%", label: "Taxa de Sucesso" },
 ];
 
@@ -68,7 +68,7 @@ const Index = () => {
                 Transformando Projetos em <span className="text-accent">Realidade</span>
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                A EngAdmin é uma empresa consolidada no mercado de engenharia e administração, 
+                A Ero ENG. & ADMIN. é uma empresa consolidada no mercado de engenharia e administração, 
                 oferecendo soluções completas e integradas para projetos de todos os portes. 
                 Nossa equipe de profissionais altamente qualificados está comprometida com a 
                 excelência e a satisfação de nossos clientes.
@@ -89,7 +89,7 @@ const Index = () => {
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-accent text-accent-foreground p-6 rounded-xl shadow-lg">
-                <div className="text-4xl font-heading font-bold">15+</div>
+                <div className="text-4xl font-heading font-bold">10+</div>
                 <div className="text-sm">Anos de Mercado</div>
               </div>
             </div>
