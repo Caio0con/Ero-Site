@@ -11,20 +11,20 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Telefone",
-    value: "(11) 99999-9999",
-    subtitle: "(11) 3333-3333",
+    value: "(16) 99722-8054",
+    // subtitle: "(11) 3333-3333",
   },
   {
     icon: Mail,
     title: "E-mail",
-    value: "contato@engadmin.com.br",
-    subtitle: "projetos@engadmin.com.br",
+    value: "contato@eroea.com.br",
+    // subtitle: "projetos@engadmin.com.br",
   },
   {
     icon: MapPin,
     title: "Endereço",
-    value: "Av. Paulista, 1000 - 10º andar",
-    subtitle: "São Paulo, SP - CEP 01310-100",
+    value: "Rua Santa Cruz, nº 94, Sala 2 - CENTREVILLE",
+    subtitle: "SÃO CARLOS/SP - CEP: 13560-680",
   },
   {
     icon: Clock,
@@ -44,8 +44,8 @@ const Contato = () => {
     message: "",
   });
 
-  // Número do WhatsApp da empresa (formato: 5511999999999)
-  const whatsappNumber = "5511999999999";
+  // Número do WhatsApp da empresa (formato: 5516997228054)
+  const whatsappNumber = "+5516997228054";
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -200,14 +200,15 @@ ${formData.message}`;
             <div className="space-y-6">
               <div className="aspect-video rounded-2xl overflow-hidden shadow-elevated">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975844676787!2d-46.6565788!3d-23.5632057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1699999999999!5m2!1spt-BR!2sbr"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d324.3454153722012!2d-47.89392917528803!3d-22.023439295667814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8773d1dc85193%3A0x313a42d5ed1d29ee!2sR.%20Santa%20Cruz%2C%2094%20-%202%20-%20Centreville%2C%20S%C3%A3o%20Carlos%20-%20SP%2C%2013560-680!5e1!3m2!1spt-BR!2sbr!4v1768527639917!5m2!1spt-BR!2sbr"
+
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Localização EngAdmin"
+                  title="Localização"
                 />
               </div>
               <Card className="p-6 bg-gradient-hero text-primary-foreground border-0">
@@ -218,11 +219,11 @@ ${formData.message}`;
                   Nossa equipe está disponível para atendimentos emergenciais
                 </p>
                 <a
-                  href="tel:+5511999999999"
+                  href="tel:+5516997228054"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-accent-foreground rounded-lg font-semibold hover:bg-gold-dark transition-colors"
                 >
                   <Phone className="h-5 w-5" />
-                  (11) 99999-9999
+                  (16) 99722-8054
                 </a>
               </Card>
             </div>

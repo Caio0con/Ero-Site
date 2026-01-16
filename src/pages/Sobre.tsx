@@ -6,7 +6,7 @@ const values = [
   {
     icon: Target,
     title: "Missão",
-    description: "Entregar soluções de engenharia e administração com excelência, superando as expectativas de nossos clientes.",
+    description: "Entregar soluções  com excelência, superando as expectativas de nossos clientes.",
   },
   {
     icon: Users,
@@ -45,7 +45,22 @@ const team = [
     role: "Gerente de Projetos",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
   },
-];
+  {
+    name: "Felipe Almeida",
+    role: "Engenheiro Civil",
+    image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=400&q=80",
+  },
+  {
+    name: "Juliana Ferreira",
+    role: "Analista de Projetos",
+    image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&q=80",
+  },
+  {
+    name: "Lucas Oliveira",
+    role: "CEO e Fundador",
+      image: "https://forbes.com.br/wp-content/uploads/2022/03/Rony-Meisler-768x512.jpg",
+    },
+];  
 
 const Sobre = () => {
   return (
@@ -72,9 +87,9 @@ const Sobre = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
-              <h2 className="section-title mb-6">Quem Somos</h2>
+              <h2 className="section-title mb-6">Quem Somos?</h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Fundada em 2010, a Ero nasceu da visão de profissionais experientes 
+                Fundada em 2012, a Ero nasceu da visão de profissionais experientes 
                 que buscavam oferecer serviços diferenciados em engenharia e administração. 
                 Ao longo dos anos, construímos uma reputação sólida baseada em qualidade, 
                 ética e compromisso com resultados.
@@ -97,8 +112,8 @@ const Sobre = () => {
             <div className="order-1 lg:order-2">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-elevated">
                 <img
-                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
-                  alt="Escritório EngAdmin"
+                  src="/img/equipe.jpg"
+                  alt="Equipe"
                   className="w-full h-full object-cover"
                 />
               </div>

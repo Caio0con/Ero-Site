@@ -14,7 +14,7 @@ const stats = [
 const services = [
   {
     title: "Engenharia Civil",
-    description: "Projetos estruturais, hidráulicos e elétricos com máxima qualidade técnica.",
+    description: "Projetos para rodovias e infraestrutura, com qualidade técnica, segurança e eficiência.",
     icon: "🏗️",
   },
   {
@@ -68,10 +68,10 @@ const Index = () => {
                 Transformando Projetos em <span className="text-accent">Realidade</span>
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                A Ero ENG. & ADMIN. é uma empresa consolidada no mercado de engenharia e administração, 
+                A Ero Engenharia & Administração é uma empresa consolidada no mercado de engenharia e administração, 
                 oferecendo soluções completas e integradas para projetos de todos os portes. 
                 Nossa equipe de profissionais altamente qualificados está comprometida com a 
-                excelência e a satisfação de nossos clientes.
+                excelência e a satisfação de n  ossos clientes.
               </p>
               <Link
                 to="/sobre"
@@ -83,8 +83,8 @@ const Index = () => {
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-elevated">
                 <img
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
-                  alt="Projeto arquitetônico"
+                  src="/img/rodovia2.jpg"
+                  alt="Projeto Rodovia"
                   className="w-full h-full object-cover"
                 />
               </div>

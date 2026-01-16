@@ -13,27 +13,41 @@ interface CarouselSlide {
 const slides: CarouselSlide[] = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80",
-    title: "Construindo o Futuro",
-    subtitle: "Soluções inovadoras em engenharia e administração para grandes projetos",
+    image: '/img/sinalização.jpg',
+    title: "Sinalização e Interdição de Rodovias",
+    subtitle: "Garantimos segurança e organização no tráfego rodoviário por meio da instalação e manutenção de dispositivos de sinalização, como placas, cones, barreiras e faixas. ",
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80",
-    title: "Excelência em Cada Detalhe",
-    subtitle: "Compromisso com qualidade e prazos em todas as etapas do projeto",
-  },
+      image:'/img/gestaofaixa.jpeg',
+      title: "Gestão de Faixa de Domínio, Projetos e Desapropriação",
+      subtitle: "Oferecemos soluções completas para o uso e gestão da faixa de domínio em rodovias, garantindo segurança, conformidade legal e eficiência.",
+    },
+  
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80",
-    title: "Experiência e Inovação",
-    subtitle: "Mais de uma década transformando ideias em realidade",
+    image: '/img/engrodovia.jpeg',
+    title: "Serviços de Engenharia Civil para Rodovias",
+    subtitle: "Oferecemos soluções completas em engenharia civil voltadas para infraestrutura rodoviária, garantindo segurança, eficiência e conformidade com as normas técnicas.",
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1920&q=80",
-    title: "Gestão Profissional",
-    subtitle: "Administração eficiente para resultados extraordinários",
+    image: '/img/administrativo.jpg',
+    title: "Serviços Administrativos para Obras Rodoviárias",
+    subtitle: "Oferecemos apoio completo de escritório e gestão integrada para garantir o acompanhamento eficiente das obras.",
+  },
+
+  {
+    id: 5,
+    image: '/img/edificios.jpg',
+    title: "Construção e Manutenção de Edifícios, Torres e Redes de Energia",
+    subtitle: "Executamos obras de construção e manutenção de edificações, torres e redes de energia com qualidade, segurança e conformidade técnica.",
+  },
+  {
+    id: 6,
+    image: '/img/pintura.jpg',
+    title: "Pintura e Instalação de Sinalização para Segurança em Rodovias",
+    subtitle: "Garantimos a segurança e a orientação do tráfego por meio de serviços completos de sinalização horizontal e vertical.",
   },
 ];
 

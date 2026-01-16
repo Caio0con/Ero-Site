@@ -7,8 +7,8 @@ const services = [
   {
     icon: Building,
     title: "Engenharia Civil",
-    description: "Projetos estruturais, hidráulicos, elétricos e arquitetônicos com a mais alta qualidade técnica.",
-    features: ["Projetos estruturais", "Instalações hidráulicas", "Projetos elétricos", "Laudos técnicos"],
+    description: "Projetos para rodovias e infraestrutura, com qualidade técnica, segurança e eficiência."  ,
+    features: ["Projetos estruturais", "Pintura e Instalação de Sinalização", "Construção e Manutenção", "Laudos técnicos"],
   },
   {
     icon: ClipboardList,
