@@ -1,32 +1,37 @@
 import Layout from "@/components/Layout";
-import { Card } from "@/components/ui/card";
+import { Card, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, Clock, Send } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import { sub } from "date-fns";
 
 const contactInfo = [
   {
     icon: Phone,
     title: "Telefone",
     value: "(16) 99722-8054",
-    // subtitle: "(11) 3333-3333",
   },
   {
     icon: Mail,
     title: "E-mail",
     value: "contato@eroea.com.br",
-    // subtitle: "projetos@engadmin.com.br",
   },
   {
     icon: MapPin,
     title: "Endereço",
-    value: "Rua Santa Cruz, nº 94, Sala 2 - CENTREVILLE",
-    subtitle: "SÃO CARLOS/SP - CEP: 13560-680",
+    value: "Rua Santa Cruz, n.º 94",
+    subtitle: (
+      <>
+        Bairro Centreville - CEP: 13560-680
+        <br />
+        São Carlos / SP
+      </>
+    ),
   },
-  {
+  { 
     icon: Clock,
     title: "Horário",
     value: "Segunda a Sexta: 8h às 18h",

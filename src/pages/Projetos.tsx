@@ -159,12 +159,12 @@ const Projetos = () => {
       {/* Stats */}
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
             {[
-              { value: "500+", label: "Projetos Entregues" },
+              { value: "100+", label: "Projetos Entregues" },
               { value: "1M+", label: "M² Construídos" },
-              { value: "15", label: "Estados Atendidos" },
-              { value: "98%", label: "Clientes Satisfeitos" },
+              { value: "10+", label: "Estados Atendidos" },
+              // { value: "98%", label: "Clientes Satisfeitos" },
             ].map((stat, index) => (
               <div key={index}>
                 <div className="text-4xl md:text-5xl font-heading font-bold text-accent mb-2">

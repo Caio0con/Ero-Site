@@ -5,10 +5,10 @@ import { Building, Users, Award, Target, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const stats = [
-  { icon: Building, value: "500+", label: "Projetos Realizados" },
-  { icon: Users, value: "150+", label: "Clientes Satisfeitos" },
-  { icon: Award, value: "10+", label: "Anos de Experiência" },
-  { icon: Target, value: "98%", label: "Taxa de Sucesso" },
+  { icon: Building, value: "100+", label: "Projetos Realizados" },
+  { icon: Users, value: "50+", label: "Clientes Satisfeitos" },
+  { icon: Award, value: "20+", label: "Anos de Experiência" },
+  // { icon: Target, value: "98%", label: "Taxa de Sucesso" },
 ];
 
 const services = [
@@ -38,7 +38,7 @@ const Index = () => {
       {/* Stats Section */}
       <section className="py-16 bg-card">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
             {stats.map((stat, index) => (
               <div
                 key={index}

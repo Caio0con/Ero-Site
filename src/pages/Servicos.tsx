@@ -7,14 +7,14 @@ const services = [
   {
     icon: Building,
     title: "Engenharia Civil",
-    description: "Projetos para rodovias e infraestrutura, com qualidade técnica, segurança e eficiência."  ,
-    features: ["Projetos estruturais", "Pintura e Instalação de Sinalização", "Construção e Manutenção", "Laudos técnicos"],
+    description: "Projetos e Estudos técnicos rodovias, vias rurais."  ,
+    features: ["Projeto Funcional e Executivo ", "Projeto Pavimento", "Projeto Sinalização Horizontal e Vertical", "Estudo de Tráfego, RIT e EIV"],
   },
   {
     icon: ClipboardList,
-    title: "Gestão de Projetos",
-    description: "Planejamento, execução e controle de obras utilizando metodologias ágeis e ferramentas modernas.",
-    features: ["Cronogramas detalhados", "Controle de custos", "Gestão de equipes", "Relatórios executivos"],
+    title: "Gestão Rodoviária",
+    description: "Atuação completa no planejamento, organização e regularização de elementos essenciais da infraestrutura rodoviária, garantindo conformidade legal, segurança e eficiência operacional.",
+    features: ["Abertura e regularização de acessos", "Processos de desapropriação", "Gestão da faixa de domínio", "Elaboração de estudos técnicos"],
   },
   {
     icon: FileText,
@@ -25,8 +25,8 @@ const services = [
   {
     icon: Settings,
     title: "Administração de Obras",
-    description: "Gerenciamento completo de obras, desde a fundação até a entrega das chaves.",
-    features: ["Fiscalização", "Controle de qualidade", "Gestão de contratos", "Medições"],
+    description: "Planejamento, coordenação e acompanhamento completo das atividades de campo, garantindo eficiência, qualidade técnica e cumprimento de prazos e contratos.",
+    features: ["Cronogramas executivos e físico‑financeiro da obra", "Gestão de equipes e contratos", "Relatórios técnicos e gerenciais", "Controle de Qualidade"],
   },
   {
     icon: Shield,
@@ -56,7 +56,11 @@ const Servicos = () => {
               Soluções Completas em <span className="text-accent">Engenharia</span>
             </h1>
             <p className="text-lg text-primary-foreground/80">
-              Oferecemos uma gama completa de serviços para atender todas as suas necessidades
+              Oferecemos uma gama completa de serviços para atender todas as suas necessidades.
+            </p>
+            <p className="text-lg text-primary-foreground/80">
+              Soluções Especializadas em Infraestrutura de Transportes
+              Oferecemos um portfólio completo de serviços voltados para o setor rodoviário, atendendo de forma integrada todas as necessidades relacionadas ao planejamento, gestão, operação e melhoria de rodovias.  
             </p>
           </div>
         </div>

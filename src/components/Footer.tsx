@@ -9,8 +9,12 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="p-2 bg-accent rounded-lg">
-                <Building2 className="h-6 w-6 text-accent-foreground" />
+              <div className="p-2 bg-white rounded-lg group-hover:scale-105 transition-transform duration-300">
+                <img
+                  src="/logo.png"
+                  alt="Ero — Logo"
+                  className="h-6 w-6 sm:h-8 sm:w-8 object-contain"
+                />
               </div>
               <div>
                 <span className="text-xl font-heading font-bold">Ero</span>

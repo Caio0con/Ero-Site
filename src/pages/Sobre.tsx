@@ -89,17 +89,13 @@ const Sobre = () => {
             <div className="order-2 lg:order-1">
               <h2 className="section-title mb-6">Quem Somos?</h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Fundada em 2012, a Ero nasceu da visão de profissionais experientes 
-                que buscavam oferecer serviços diferenciados em engenharia e administração. 
-                Ao longo dos anos, construímos uma reputação sólida baseada em qualidade, 
-                ética e compromisso com resultados.
+                A Éro Engenharia e Administração está sediada na região central do Estado de São Paulo, na cidade de São Carlos-SP, reconhecida nacionalmente como Capital da Tecnologia e polo de pesquisa, inovação e excelência graças à forte presença de suas universidades e centros de desenvolvimento científico.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Nossa equipe multidisciplinar combina expertise técnica com gestão moderna, 
-                garantindo que cada projeto seja executado com precisão e eficiência. 
-                Trabalhamos em parceria com nossos clientes, entendendo suas necessidades 
-                e superando expectativas.
+               Desde 2012, atuamos no setor de infraestrutura de transportes, com foco principal em rodovias. Nosso time é formado por profissionais altamente qualificados nas áreas de engenharia civil, com ênfase em projetos, obras e soluções rodoviárias, reunindo mais de 20 anos de experiência técnica e prática no mercado.
               </p>
+               <p className="text-muted-foreground mb-6 leading-relaxed"> Nosso compromisso é entregar serviços de alta qualidade, oferecendo orientação técnica especializada e apresentando soluções modernas, eficientes e de fácil implementação, sempre alinhadas às melhores práticas do setor e às necessidades específicas de cada cliente. </p>
+
               <div className="grid grid-cols-2 gap-4">
                 {differentials.slice(0, 4).map((item, index) => (
                   <div key={index} className="flex items-center gap-2">
@@ -149,7 +145,7 @@ const Sobre = () => {
         </div>
       </section>
 
-      {/* Team */}
+      {/* Time - Equipe
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -175,7 +171,7 @@ const Sobre = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };

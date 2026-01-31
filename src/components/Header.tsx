@@ -23,10 +23,11 @@ const Header = () => {
             className="flex items-center gap-3 group"
             aria-label="Ero — Início. Ero Engenharia e Administração LTDA"
           >
-            <div className="p-2 bg-accent rounded-lg group-hover:scale-105 transition-transform duration-300">
-              <Building2
-                className="h-6 w-6 text-accent-foreground"
-                aria-hidden="true"
+            <div className="p-2 bg-white rounded-lg group-hover:scale-105 transition-transform duration-300">
+              <img
+                src="/logo.png"
+                alt="Ero — Logo"
+                className="h-6 w-6 sm:h-8 sm:w-8 object-contain"
               />
             </div>
             <div>
