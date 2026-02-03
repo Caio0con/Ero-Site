@@ -6,7 +6,7 @@ const navigation = [
   { name: "Início", href: "/" },
   { name: "Sobre", href: "/sobre" },
   { name: "Serviços", href: "/servicos" },
-  { name: "Projetos", href: "/projetos" },
+  // { name: "Projetos", href: "/projetos" },
   { name: "Contato", href: "/contato" },
 ];
 
@@ -27,17 +27,17 @@ const Header = () => {
               <img
                 src="/logo.png"
                 alt="Ero — Logo"
-                className="h-6 w-6 sm:h-8 sm:w-8 object-contain"
+                className="h-6 w-6 sm:h-10 sm:w-40  object-contain"
               />
             </div>
-            <div>
+            {/* <div>
               <span className="text-xl font-heading font-bold text-primary-foreground">
                 Ero
               </span>
               <span className="hidden sm:block text-xs text-primary-foreground/70">
                 ENGENHARIA E ADMINISTRAÇÃO LTDA
               </span>
-            </div>
+            </div> */}
             <span className="sr-only">Ir para a página inicial</span>
           </NavLink>
 

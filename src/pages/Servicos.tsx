@@ -7,14 +7,14 @@ const services = [
   {
     icon: Building,
     title: "Engenharia Civil",
-    description: "Projetos e Estudos técnicos rodovias, vias rurais."  ,
-    features: ["Projeto Funcional e Executivo ", "Projeto Pavimento", "Projeto Sinalização Horizontal e Vertical", "Estudo de Tráfego, RIT e EIV"],
+    description: "Projetos e Serviços para Rodovias.",
+    features: ["Projetos Funcional e Executivo", "Consultoria em Pavimentação", "Sinalização Horizontal, Vertical e de Obras", "Estudos de Tráfego, RIT e EIV"],
   },
   {
     icon: ClipboardList,
     title: "Gestão Rodoviária",
-    description: "Atuação completa no planejamento, organização e regularização de elementos essenciais da infraestrutura rodoviária, garantindo conformidade legal, segurança e eficiência operacional.",
-    features: ["Abertura e regularização de acessos", "Processos de desapropriação", "Gestão da faixa de domínio", "Elaboração de estudos técnicos"],
+    description: "Planejamento, Organização e Regularização de elementos essenciais da infraestrutura rodoviária, garantindo conformidade legal, segurança e eficiência operacional.",
+    features: ["Abertura e regularização de acessos", "Processos de desapropriação", "Gestão da faixa de domínio", "Controle e Monitoramento"],
   },
   {
     icon: FileText,
@@ -53,14 +53,12 @@ const Servicos = () => {
               Serviços
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6">
-              Soluções Completas em <span className="text-accent">Engenharia</span>
+              Soluções Especializadas em <span className="text-accent">Engenharia Rodoviária</span>
             </h1>
             <p className="text-lg text-primary-foreground/80">
-              Oferecemos uma gama completa de serviços para atender todas as suas necessidades.
-            </p>
-            <p className="text-lg text-primary-foreground/80">
-              Soluções Especializadas em Infraestrutura de Transportes
-              Oferecemos um portfólio completo de serviços voltados para o setor rodoviário, atendendo de forma integrada todas as necessidades relacionadas ao planejamento, gestão, operação e melhoria de rodovias.  
+              Disponibilizamos um portfólio abrangente de serviços voltados ao setor rodoviário,
+              atendendo de forma integrada todas as demandas relacionadas ao planejamento, gestão,
+              operação e melhoria de rodovias.
             </p>
           </div>
         </div>

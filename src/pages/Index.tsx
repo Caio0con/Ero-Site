@@ -68,10 +68,10 @@ const Index = () => {
                 Transformando Projetos em <span className="text-accent">Realidade</span>
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                A Ero Engenharia & Administração é uma empresa consolidada no mercado de engenharia e administração, 
-                oferecendo soluções completas e integradas para projetos de todos os portes. 
-                Nossa equipe de profissionais altamente qualificados está comprometida com a 
-                excelência e a satisfação de n  ossos clientes.
+                A ÉRO Engenharia & Administração é uma empresa consolidada no mercado, oferecendo
+                soluções completas e integradas em engenharia e gestão para projetos de todos os
+                portes. Nossa equipe de profissionais altamente qualificados é comprometida com a
+                excelência e a satisfação de nossos clientes.
               </p>
               <Link
                 to="/sobre"

@@ -24,7 +24,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Excelência em engenharia e administração desde 2012. Transformando projetos em realidade com qualidade e inovação.
+              Excelência em engenharia e gestão desde 2012, entregando soluções que unem qualidade, eficiência e inovação.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold text-lg mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
-              {["Início", "Sobre", "Serviços", "Projetos", "Contato"].map((item) => (
+              {["Início", "Sobre", "Serviços", /* "Projetos"*/, "Contato"].map((item) => (
                 <li key={item}>
                   <NavLink
                     to={item === "Início" ? "/" : `/${item.toLowerCase()}`}
@@ -50,9 +50,11 @@ const Footer = () => {
             <h4 className="font-heading font-semibold text-lg mb-4">Serviços</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/70">
               <li>Engenharia Civil</li>
-              <li>Gestão de Projetos</li>
+              <li>Gestão Rodoviária</li>
               <li>Consultoria Técnica</li>
               <li>Administração de Obras</li>
+              <li>Regularização</li>
+              <li>Treinamentos</li>
             </ul>
           </div>
 
@@ -76,9 +78,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-primary-foreground/20 text-center text-sm text-primary-foreground/60">
-          © {new Date().getFullYear()} ERO Eng. & Admin. Todos os direitos reservados.
-        </div>
+        {/* <div className="mt-10 pt-6 border-t border-primary-foreground/20 text-center text-sm text-primary-foreground/60">
+          © {new Date().getFullYear()} ERO Eng. & Gestão. Todos os direitos reservados.
+        </div> */}
       </div>
     </footer>
   );
